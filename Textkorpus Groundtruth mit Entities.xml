@@ -6,13 +6,26 @@
   <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Groundtruth für NTEE</title>
+            <title>Ground truth für eine Erkennung von Raumentitäten in deutschsprachigen Romanen des 19. Jahrhunderts aud der Basis von Machine Learning</title>
+            <respStmt>
+               <resp>Zusammenstellung des Korpus aus 100 Romanen durch Auswahl und Anpassung von 100 Seiten</resp>
+               <persName>Sally Ahlers</persName>
+            </respStmt>
          </titleStmt>
+         <extent>
+            <measure unit="pages">100</measure>
+         </extent>
          <publicationStmt>
-            <p>Publication Information</p>
+            <authority>Universität Rostock</authority>
+            <availability><licence target="https://creativecommons.org/licenses/by/4.0/"/></availability>
+            <date when="2023-01-05"/>
          </publicationStmt>
          <sourceDesc>
-            <p>Die Groundtruth besteht aus zufällig ausgewählten Seiten des Textkorpus Eltec deu 100.</p>
+            <bibl type="digitalSource">
+               <title>ELTeC-deu</title>
+               <author>COST Action "Distant Reading for European Literary History" (CA16204)</author>
+               <ref type="doi" target="https://doi.org/10.5281/zenodo.4662482">ELTeC-deu release 1.0.0</ref>
+            </bibl>
          </sourceDesc>
       </fileDesc>
   </teiHeader>
